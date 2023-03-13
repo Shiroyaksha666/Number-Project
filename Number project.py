@@ -1,7 +1,12 @@
-yekan = ['' , 'yek' , 'do' , 'se' , 'chahar' , 'panj' , 'shesh' , 'haft' , 'hasht' , 'noh' , 'dah', 'yazdah' , 'davazdah' , 'sizdah' , 'chahardah' , 'panzdah' , 'shanzdah' , 'hefdah' , 'hijdah' , 'noozdah']
+yekan = ['' , 'yek' , 'do' , 'se' , 'chahar' , 'panj' , 'shesh' , 'haft' , 'hasht' , 'noh' , 'dah', 'yazdah' , 'davazdah' ,
+ 'sizdah' , 'chahardah' , 'panzdah' , 'shanzdah' , 'hefdah' , 'hijdah' , 'noozdah']
+
 dahgan = ['' , 'dah' , 'bist' , 'si' , 'chehel' , 'panjah' , 'shast' , 'haftad' , 'hashtad' , 'navad']
+
 sadgan = ['' , 'sad' , 'divist' , 'sisad' , 'chaharsad' , 'paansad' , 'sheshsad' , 'haftsad' , 'hashtsad' , 'nohsad']
-namad = ['' , 'hezar' , 'milion' , 'miliyard' , 'trilion' , 'triliard' , 'kadriliard' , 'kointilion' , 'koantiniard' , 'sikstilion' , 'sikstiliard' , 'septilion' , 'septiliard' , 'octilion' , 'octiliard' , 'nanilion' , 'naniliard' , 'desilion' , 'desiiard' , 'andeselion' , 'andesiliard' , 'dodsilion']
+
+namad = ['' , 'hezar' , 'milion' , 'miliyard' , 'trilion' , 'triliard' , 'kadriliard' , 'kointilion' , 'koantiniard' , 'sikstilion' , 'sikstiliard' , 
+'septilion' , 'septiliard' , 'octilion' , 'octiliard' , 'nanilion' , 'naniliard' , 'desilion' , 'desiiard' , 'andeselion' , 'andesiliard' , 'dodsilion']
 Number = input('Enter your number: ')
 Numberdigit = len(Number)
 adad = []
@@ -58,6 +63,6 @@ for i in adad2:
                 Result.append(f'{sadgan[c]} o {yekan[e]} {namad[z]}')
 total = ''
 for i in Result:
-    total = total + 'o ' + i
+    total = total + ' o ' + i
 print(total.split(maxsplit = 1)[1])
 #Code by Ali Esmkhani
